@@ -1,12 +1,187 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="lib64run.css"/>
-    <title>Document</title>
-</head>
-<body>
-    Yusud
-</body>
+<!-- https://functionhub-devlooper.github.io/Home -->
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <style>
+    p{
+        margin-bottom: 1.8rem;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-size:1.1500em;
+        line-height: 1.75;
+        -webkit-text-size-adjust:100%;
+        color: #262b2d;
+        letter-spacing:.3px;
+        font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    }
+    p::selection{
+        background: #d9d4fc;
+        color: #171a1b;
+    }
+    br::selection{
+        background: #ffffff00;
+    }
+    h1::selection{
+        background: #d9d4fc;
+        color: #171a1b;
+    }
+    h1{
+        font-family: 'Merriweather', serif;
+        font-size: 2.1em;
+        border-radius: 0px;
+    }
+    body{
+        max-width: 767px;
+        color: #171a1b;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        margin: auto;
+        text-align: start;
+    }
+    .magnet{
+        position: relative;
+        margin: auto;
+        margin-top: 30px;
+    }
+    h1:active{
+        text-shadow: 0px 0px 10px #e5e1ff;
+        border: 1px solid rgba(77, 80, 85, 0);
+    }
+    .button1{
+        background: bisque;
+        border: none;
+        border-radius: 6px;
+        padding: 6px;
+        font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI emoji;
+        outline: none;
+        outline-color: transparent;
+        font-size: 15px;
+        box-shadow: 0px 1.2px #f1d6b6;
+    }
+    .button2{
+        background: #d7ffb3;
+        border: none;
+        border-radius: 6px;
+        padding: 6px;
+        font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI emoji;
+        outline: none;
+        outline-color: transparent;
+        font-size: 15px;
+        box-shadow:0px 1.2px #c5eaa4;
+    }
+    .button3{
+        background: #e7f4ff;
+        border: none;
+        border-radius: 6px;
+        padding: 6px;
+        font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI emoji;
+        outline: none;
+        outline-color: transparent;
+        font-size: 15px;
+        box-shadow:0px 1.2px #ccdae6;
+    }
+    button{
+        background: beige;
+        border: none;
+        border-radius: 6px;
+        padding: 6px;
+        font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI emoji;
+        outline: none;
+        outline-color: transparent;
+        font-size: 15px;
+        box-shadow: 0px 1.2px #e2e2a5;
+    }
+    button::selection{
+        background-color: transparent;
+    }
+    button:active{
+        box-shadow: 0px 0px #e2e2a5;
+        margin: 1px;    
+    }
+    button:hover,.button1:hover,.button2:hover,.button3:hover{
+        filter:brightness(87%);
+    }
+    .stic{
+        background: linear-gradient(90deg, #efefef, #dbdbdb,#efefef);
+        height: 3px;
+        border-radius: 7px;
+        outline: none;
+        opacity: 0.5;
+        margin-bottom: 50px;
+    }
+    .endtext{
+        margin: -40px auto;
+        font-size: 18px;
+        /* font-weight: 600; */
+        font-style: normal;
+        letter-spacing: 2.3px;
+        font-family: Shadows Into Light;
+        color: #d8d8a7;
+        text-align: center;
+    }
+    .endtext:hover{
+        color: #949476;
+    }
+    a{
+        text-decoration: none;
+        cursor:help;
+    }
+    .xbox{
+        width: 145px;
+        position: absolute;
+        margin-left: -6px;
+        opacity:0.3;
+
+    }
+    .code{
+        background-color: #fcf9ec;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        font-family: consolas;
+        padding: 10px;
+        border-radius: 5px;
+        resize: none;
+        caret-color: #8b7e00;
+        overflow: hidden;
+        line-height: 1.3;
+        letter-spacing: 1;
+        border-bottom: 3px solid rgb(241, 238, 216);
+    }
+    .code:hover{
+        background-color: #fffdf3;
+    }
+    .code::selection{
+        background-color: rgb(247, 244, 202);
+    }
+        </style>
+    </head>
+    <body>
+        <img class="xbox" src="x.png" style="position: absolute;" alt="">
+        <div class="magnet">
+            <h1>FunctionHub Blog</h1>
+            <p>Java ilk olarak Sun Microsystems tarafından 1995 yılında piyasaya sürülen bir programlama dili ve bilgi işlem platformudur. Java yüklemediğinizde çalıştıramayacağınız bir çok uygulama ve web sitesi mevcut ve her geçen gün bunların sayıları artıyor. Java hızlı, güvenli ve güvenilirdir. Dizüstü bilgisayarlardan veri depolama merkezlerine, oyun konsollarından bilimsel süper bilgisayarlara, cep telefonlarından Internet'e kadar Java her yerde! Java yazılımını indirdiğinizde Java Runtime Environment (JRE) bilgisayarınıza yüklenir. JRE, Java Virtual Machine (JVM), Java platformu çekirdek sınıfları ve destekleyici Java platformu kitaplıklarından oluşur. JRE, Java'yı Web tarayıcınızda çalıştırmak için tüm ihtiyacınız olan Java yazılımı çalıştırma zamanı bölümüdür.</p>
+            <p>Java ilk olarak Sun Microsystems tarafından 1995 yılında piyasaya sürülen bir programlama dili ve bilgi işlem platformudur. Java yüklemediğinizde çalıştıramayacağınız bir çok uygulama ve web sitesi mevcut ve her geçen gün bunların sayıları artıyor. Java hızlı, güvenli ve güvenilirdir. Dizüstü bilgisayarlardan veri depolama merkezlerine, oyun konsollarından bilimsel süper bilgisayarlara, cep telefonlarından Internet'e kadar Java her yerde! Java yazılımını indirdiğinizde Java Runtime Environment (JRE) bilgisayarınıza yüklenir. JRE, Java Virtual Machine (JVM), Java platformu çekirdek sınıfları ve destekleyici Java platformu kitaplıklarından oluşur. JRE, Java'yı Web tarayıcınızda çalıştırmak için tüm ihtiyacınız olan Java yazılımı çalıştırma zamanı bölümüdür.</p>
+            <button>Java Runtime</button>
+            <button class="button1">Java Runtime</button>
+            <button class="button2">Java Runtime</button>
+            <button class="button3">Java Runtime</button>
+            <br>
+            <br>
+            <textarea disabled name="code" id="code" cols="0" rows="0" class="code">Java Runtime Environment (JRE)</textarea>
+            <br>
+            <br>
+            <br>
+            <div class="stic"></div>
+            <a href="#"><p class="endtext">{FunctionHub}</p></a>
+            <br>
+            <br>
+            <br>
+        </div>
+    </body>
 </html>
