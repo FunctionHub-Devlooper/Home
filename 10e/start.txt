@@ -1,0 +1,9 @@
++
+ * ScriptLime Web v1.1
+ * https://functionhub-devlooper.github.io/Home/
+ * FunctionHub
+ * https://bit.ly/3boptyR
+ *
+ * Copyright FunctionHub Lisance Free (Open Source)
+ * Released under the MIT license
++

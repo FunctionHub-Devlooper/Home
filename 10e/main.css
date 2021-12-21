@@ -1,0 +1,73 @@
+/* chrome scrollbars */
+textarea::-webkit-scrollbar 
+{
+    width: 7px;
+    background-color: rgba(105, 105, 105, 0);
+    cursor: pointer;
+    border-radius:0px;
+}
+textarea::-webkit-scrollbar-track 
+{
+    background-color: rgb(37, 37, 37);    
+    cursor: pointer;
+    border-radius: 0px;
+}
+textarea::-webkit-scrollbar-corner
+{
+  background-color: #484;
+  border-radius: 0px;
+}
+textarea::-webkit-scrollbar-thumb 
+{
+  background-color: rgb(83, 83, 83);
+  border-radius: 0px;
+  /*outline: 1px solid #666;*/
+  
+  cursor: pointer;
+}
+textarea::selection{
+  background-color: #3b3b3b;
+  color: #ddd;
+}
+#file{
+    background: #3b3b3b;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #afafaf;
+    border-radius: 3px 3px 0px 0px;
+}
+#coll{
+    background: #fff0;
+    border: none;
+    color: #9c9c9c;
+    font-family: consolas;
+    font-size: 17px;
+    border-radius: 1px 1px 2px 2px;
+    caret-color: rgb(70, 70, 70);
+    line-height: 1.44em;
+    outline: none;
+    text-align: center;
+    outline-color: transparent;
+}
+/* cool
+ scrollbars */
+textarea::-webkit-scrollbar 
+{
+    width: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+textarea::-webkit-scrollbar-track 
+{
+    background-color: rgba(37, 37, 37, 0);    
+}
+
+textarea::-webkit-scrollbar-thumb 
+{
+  background-color: transparent;
+}
+#coll::selection{
+  background-color: #00000000;
+  color: #ddd;
+}
