@@ -1,0 +1,65 @@
+body{
+ background: url(a.png);
+background-color:#d7dce2;
+ background-clip:border-box;
+  Backdrop-filter: blur(25px);
+ background-size: contain;
+}
+video{
+ 
+}
+.content{
+ max-width: 767px;
+}
+.function-content{
+ box-sizing: content-box;
+ background: #f3f3f3c7;
+ border-left: none;
+ border-right: none;
+ border-bottom: none;
+ border-top: none;
+ height: 44px;
+ display:block;
+ font-size:14px;
+ font-style: normal;
+ line-height:25px;
+ margin-bottom: 0px;
+ margin-left:0px;
+ margin-right: 0px;
+ margin-top: 0px;
+ pointer-events: auto;
+ position:relative;
+ text-align:left;
+ user-select:none;
+ -webkit-font-smoothing:antialiased;
+}
+.item-apple-imagesource{
+ background-size:108px auto;
+ background-repeat:no-repeat;
+ background-position:11px 10px;
+ width:30px;
+ margin-top: 10px;
+ border-radius: 100px;
+}
+ul{
+ width: 800px;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ flex-direction: row;
+ align-content: space-between;
+}
+li{
+ font-size:25px;
+ font-style:normal;
+ font-family: SF Pro Display;
+ margin-left:0px;
+ color: #555;
+}
+a{
+text-decoration:none;
+color: rgba(85, 85, 85, 0.884)
+}
+a:hover{
+ color: rgba(0, 0, 0, 0.842);
+}

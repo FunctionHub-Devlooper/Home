@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>ShazamKit - Apple Developer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="ShazamKit Obj/css/hover.css" rel="stylesheet"/>
+  <link rel="shortcut icon" type="image/x-icon" href="ShazamKit Obj/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="ShazamKit Obj/reset.css"/>
+  <link rel="stylesheet" href="ShazamKit Obj/font.css"/>
+  <style>
+    #myVideo{
+      background: rgba(0, 0, 0, 0);
+      width:-webkit-fill-available;
+    }
+  </style>
+ </head>
+ <body>
+  <div class="function-content">
+    <center>
+   <ul>
+    <li class="item-apple">
+     <a href="#">
+      <img class="item-apple-imagesource" ondragstart="return false" src="ShazamKit Obj/logo.png" alt="">
+     </a>
+    </li>
+    <li>
+     <a style="text-decoration: none;" class="Function-content-news" href="/news/">
+      <span class="Function-content-news-span">News</span>
+      </a>
+    </li>
+    <li>
+     <a style="text-decoration: none;" class="Function-content-Discover" href="/Discover/">
+      <span class="Function-content-Discover-span">Discover</span>
+      </a>
+    </li>
+    <li>
+     <a style="text-decoration: none;" class="Function-content-Design" href="/Design/">
+      <span class="Function-content-Design-span">Design</span>
+      </a>
+    </li>
+    <li>
+      <a style="text-decoration: none;" class="Function-content-Develop" href="/Develop/">
+       <span class="Function-content-Develop-span">Develop</span>
+       </a>
+     </li>
+     <li>
+      <a style="text-decoration: none;" class="Function-content-Discover" href="/Distribute/">
+       <span class="Function-content-Distribute-span">Distribute</span>
+       </a>
+     </li>
+     <li>
+      <a style="text-decoration: none;" class="Function-content-Design" href="/Support/">
+       <span class="Function-content-Support-span">Support</span>
+       </a>
+     </li>
+   </ul>
+  </center>
+  </div>
+  <div>
+    <video oncontextmenu="return false" onselectstart="return false" ondragstart="return false" id="myVideo" onclick="myFunction()" autoplay loop src="https://github.com/FunctionHub-Devlooper/Home/blob/main/sc.mp4?raw=true"></video>
+  </div>
+  <script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+    
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+ </body>
+</html>
